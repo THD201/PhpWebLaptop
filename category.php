@@ -75,20 +75,6 @@ include './convert_currency.php';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    <?php include 'components/footer.php'; ?>
 
 
