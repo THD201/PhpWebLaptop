@@ -277,7 +277,7 @@ section {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
    gap: 1.5rem;
-   align-items: flex-start;
+   align-self: flex-start;
 }
 
 .dashboard .box-container .box {

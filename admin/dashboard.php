@@ -19,7 +19,7 @@ include '../convert_currency.php';
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Dashboard</title>
+   <title>ADMIN</title>
    <link rel="shortcut icon" href="../imgs/icon.png" type="image/x-icon">
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -37,12 +37,12 @@ include '../convert_currency.php';
 
    <section class="dashboard">
 
-      <h1 class="heading">dashboard</h1>
+      <h1 class="heading">Dashboard</h1>
 
       <div class="box-container">
 
          <div class="box">
-            <h3>Xin chào</h3>
+            <h3>Admin</h3>
             <p><?= $fetch_profile['name']; ?></p>
             <a href="update_profile.php" class="btn">Cập nhật thông tin</a>
          </div>
@@ -57,7 +57,6 @@ include '../convert_currency.php';
             }
             ?>
             <h3><?php echo currency_format($total_pendings) ?></h3>
-
             <p>Tổng tiền chờ xử lý</p>
             <a href="placed_orders.php" class="btn">Xem đơn hàng</a>
          </div>
